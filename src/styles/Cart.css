@@ -1,0 +1,105 @@
+.lmj-cart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 200px;
+	transition-duration: 0.5s;
+
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	font-size: 2em;;
+}
+.lmj-cart-toggle-button:hover {
+	color: #222222;
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	width: 200px;
+	transition-duration: 0.5s;
+	text-align: center;
+}
+
+.lmj-cart-closed > button {
+	color: black;
+}
+
+.deleteButton {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	width: 1em;
+    height: 1em;
+    margin-right: 1em;
+	}
+
+
+.cart-image {
+	height: 45px;
+	width: 45px;
+	background-color: #31b572;
+	padding: 16px;
+	border-radius: 20%;
+	transition-duration: 0.5s;
+
+}
+
+.ulCart{
+	padding:inherit;
+}
+
+.productsCart{
+	margin:inherit;
+}
+
+.totalCart{
+	border-top: dashed;
+    color: #222222;
+    border-top-color: mediumaquamarine;
+	padding-top: 0.5em;
+}
+
+.emptyCart{
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    outline: none;
+    border: none;
+}
+	  
+  .emptyCart:before {
+	height: 0%;
+	width: 2px;
+  }
+  .emptyCart:hover {
+	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+				-4px -4px 6px 0 rgba(116, 125, 136, .5), 
+	  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+	  inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }

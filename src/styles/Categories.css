@@ -1,0 +1,45 @@
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.lmj-categories-select {
+	margin-right: 15px;
+	position: relative;
+	font-family: inherit;
+	background-color: transparent;
+	width: 350px;
+	padding: 10px 10px 10px 0;
+	font-size: 18px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #31b472;
+	cursor: pointer ;
+}
+
+.lmj-categories-select option {
+	color: #31b472;
+  }
+
+.emptyButton{
+    color: #31b472;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    outline: none;
+    border: none;
+}
+	  
+  .emptyButton:before {
+	height: 0%;
+	width: 2px;
+  }
+  .emptyButton:hover {
+	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+				-4px -4px 6px 0 rgba(116, 125, 136, .5), 
+	  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+	  inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
