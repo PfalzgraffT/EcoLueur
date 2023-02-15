@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Cart.css'
-import shoppingCart from '../assets/shopping-cart.png'
+import shoppingCart from '../assets/cartFigma.svg'
 import trashCan from '../assets/moins.svg'
 
 

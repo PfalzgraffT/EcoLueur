@@ -1,98 +1,92 @@
-import monstera from '../assets/monstera.jpg'
-import lyrata from '../assets/lyrata.jpg'
-import pothos from '../assets/pothos.jpg'
-import succulent from '../assets/succulent.jpg'
-import olivier from '../assets/olivier.jpg'
-import basil from '../assets/basil.jpg'
-import mint from '../assets/mint.jpg'
-import calathea from '../assets/calathea.jpg'
-import cactus from '../assets/cactus.jpg'
+import candleFour from '../assets/candleFour.jpg'
+import candleFive from '../assets/candleFive.jpg'
+import candleSix from '../assets/candleSix.jpg'
 
 export const plantList = [
 	{
-		name: 'monstera',
-		category: 'classique',
+		name: 'lavande',
+		category: 'aromatique',
 		id: '1ed',
-		light: 2,
-		water: 3,
-		cover: monstera,
+		duration: 2,
+		scent: 2,
+		cover: candleSix,
 		price: 15
 	},
 	{
-		name: 'ficus lyrata',
-		category: 'classique',
+		name: 'tilleul',
+		category: 'aromatique',
 		id: '2ab',
-		light: 3,
-		water: 1,
-		cover: lyrata,
+		duration: 1,
+		scent: 1,
+		cover: candleFour,
 		price: 16
 	},
 
 	{
-		name: 'pothos argenté',
-		category: 'classique',
+		name: 'thym',
+		category: 'aromatique',
 		id: '3sd',
-		light: 1,
-		water: 2,
-		cover: pothos,
+		duration: 1,
+		scent: 2,
+		cover: candleSix,
 
 		price: 9
 	},
 	{
-		name: 'calathea',
-		category: 'classique',
+		name: 'bois',
+		category: 'aromatique',
 		id: '4kk',
-		light: 2,
-		water: 3,
-		cover: calathea,
+		duration: 2,
+		scent: 2,
+		cover: candleFour,
 
 		price: 20
 	},
 	{
-		name: 'olivier',
-		category: 'extérieur',
+		name: 'pêche',
+		category: 'fruitée',
 		id: '5pl',
-		light: 3,
-		water: 1,
-		cover: olivier,
+		duration: 2,
+		scent: 1,
+		cover: candleFive,
 		price: 25
 	},
 
 	{
-		name: 'cactus',
-		category: 'plante grasse',
+		name: 'cire',
+		category: 'neutre',
 		id: '8fp',
-		light: 2,
-		water: 1,
-		cover: cactus,
+		duration: 2,
+		scent: 1,
+		cover: candleSix,
 		price: 6
 	},
 	{
-		name: 'basilique',
-		category: 'extérieur',
+		name: 'citron',
+		category: 'fruitée',
 		id: '7ie',
-		light: 2,
-		water: 3,
-		cover: basil,
+		duration: 2,
+		scent: 2,
+		cover: candleFour,
 		price: 5
 	},
 	{
-		name: 'succulente',
-		category: 'plante grasse',
+		name: 'fraise',
+		category: 'fruitée',
 		id: '9vn',
-		light: 2,
-		water: 1,
-		cover: succulent,
+		duration: 2,
+		scent: 1,
+		cover: candleFive,
 		price: 8
 	},
 
 	{
-		name: 'menthe',
-		category: 'extérieur',
+		name: 'orange',
+		category: 'fruitée',
 		id: '6uo',
-		light: 2,
-		water: 2,
-		cover: mint,
+		duration: 2,
+		scent: 2,
+		cover: candleSix,
 		price: 4
 	}
 ]

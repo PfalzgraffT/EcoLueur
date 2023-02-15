@@ -8,21 +8,22 @@
 	position: relative;
 	font-family: inherit;
 	background-color: transparent;
-	width: 350px;
+	width: 35%;
 	padding: 10px 10px 10px 0;
 	font-size: 18px;
 	border-radius: 0;
 	border: none;
-	border-bottom: 1px solid #31b472;
+	border-bottom: 1px solid #FFCE9A;
 	cursor: pointer ;
 }
 
 .lmj-categories-select option {
-	color: #31b472;
+	color: #FFCE9A;
   }
 
 .emptyButton{
-    color: #31b472;
+    color: #FFCE9A;
+	font-weight: bold;
     border-radius: 5px;
     padding: 10px 25px;
     background: white;

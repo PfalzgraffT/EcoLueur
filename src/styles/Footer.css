@@ -1,7 +1,7 @@
 .lmj-footer {
-	color: black;
+	color: #fff;
 	padding: 32px;
-	border-top: solid 3px black;
+	border-top: solid 3px #FFCE9A;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;

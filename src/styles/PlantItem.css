@@ -20,13 +20,14 @@
 	flex-direction: column;
 	text-transform: capitalize;
 	position: relative;
+	color: #fff;
 }
 
 .lmj-plant-item-price {
 	position: absolute;
 	border-radius: 20px 20px 20px 0;
-	background-color: #31b472;
-	color: white;
+	background-color: #FFCE9A;
+	color: #222222;
 	padding: 15px;
 	right: 0;
 	top: 0;

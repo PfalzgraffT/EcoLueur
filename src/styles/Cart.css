@@ -1,12 +1,13 @@
 .lmj-cart {
 	color: white;
-	background-color: #31b572;
+	background-color: #FFCE9A;
 	padding: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 200px;
-	transition-duration: 0.5s;
+	transition-duration: 1s;
+	border-radius: 0 1vw 1vw 0;
 
 }
 
@@ -24,7 +25,7 @@
 	align-self: self-start;
 	padding: 0;
 	color: white;
-	font-size: 2em;;
+	font-size: 2em;
 }
 .lmj-cart-toggle-button:hover {
 	color: #222222;
@@ -33,7 +34,7 @@
 .lmj-cart-closed {
 	padding: 32px;
 	width: 200px;
-	transition-duration: 0.5s;
+	transition-duration: 1s;
 	text-align: center;
 }
 
@@ -57,17 +58,16 @@
 
 
 .cart-image {
-	height: 45px;
-	width: 45px;
-	background-color: #31b572;
-	padding: 16px;
-	border-radius: 20%;
-	transition-duration: 0.5s;
-
+	height: 3vw;
+	width: 3vw;
+	background-color: #FFCE9A;
+	padding: 1.7vw;
+	border-radius: 2.5vw;
 }
 
 .ulCart{
 	padding:inherit;
+	text-align: -webkit-left;
 }
 
 .productsCart{
@@ -77,7 +77,7 @@
 .totalCart{
 	border-top: dashed;
     color: #222222;
-    border-top-color: mediumaquamarine;
+    border-top-color: #B5D5A5;
 	padding-top: 0.5em;
 }
 
