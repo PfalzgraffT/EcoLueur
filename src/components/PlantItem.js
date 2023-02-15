@@ -20,23 +20,23 @@ function PlantItem({ cover, name, scent, duration, price }) {
     }, []);
 
 	useEffect(() => {
-		if (windowWidth < 485) {
+		if (windowWidth < 600) {
 		  setPlantItemWidth('18vw');
 		  setPlantItemPricePadding('10px');
-		  setPlantItemPriceSize('1.5vw')
+		  setPlantItemPriceSize('1.5vw');
 		} else if (windowWidth < 1113) {
 		  setPlantItemWidth('20vw');
 		  setPlantItemPricePadding('15px');
-		  setPlantItemPriceSize('')
+		  setPlantItemPriceSize('');
 		} else {
 		  setPlantItemWidth('250px');
 		  setPlantItemPricePadding('15px');
-		  setPlantItemPriceSize('')
+		  setPlantItemPriceSize('');
 		}
 	  }, [windowWidth]);
 
 	return (
-		<li className='lmj-plant-item' onClick={() => handleClick}>
+		<li className='lmj-plant-item' onClick={() => handleClick(name)}>
 			<img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} style={{width: plantItemWidth, height: plantItemWidth}}/>
 			{name}
 			<span className='lmj-plant-item-price' style={{padding: plantItemPricePadding, fontSize: plantItemPriceSize}}>{price}€</span>
