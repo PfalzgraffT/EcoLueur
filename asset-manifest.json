@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Ecolueur/static/css/main.f3358167.chunk.css",
+    "main.js": "/Ecolueur/static/js/main.ccc3344b.chunk.js",
+    "main.js.map": "/Ecolueur/static/js/main.ccc3344b.chunk.js.map",
+    "runtime-main.js": "/Ecolueur/static/js/runtime-main.6d038f69.js",
+    "runtime-main.js.map": "/Ecolueur/static/js/runtime-main.6d038f69.js.map",
+    "static/js/2.e50f0b1a.chunk.js": "/Ecolueur/static/js/2.e50f0b1a.chunk.js",
+    "static/js/2.e50f0b1a.chunk.js.map": "/Ecolueur/static/js/2.e50f0b1a.chunk.js.map",
+    "index.html": "/Ecolueur/index.html",
+    "static/css/main.f3358167.chunk.css.map": "/Ecolueur/static/css/main.f3358167.chunk.css.map",
+    "static/js/2.e50f0b1a.chunk.js.LICENSE.txt": "/Ecolueur/static/js/2.e50f0b1a.chunk.js.LICENSE.txt",
+    "static/media/blob.eb4cac9c.svg": "/Ecolueur/static/media/blob.eb4cac9c.svg",
+    "static/media/candleFive.b8140999.jpg": "/Ecolueur/static/media/candleFive.b8140999.jpg",
+    "static/media/candleFour.aaf6e5e6.jpg": "/Ecolueur/static/media/candleFour.aaf6e5e6.jpg",
+    "static/media/candleSix.f9b763e9.jpg": "/Ecolueur/static/media/candleSix.f9b763e9.jpg",
+    "static/media/cartFigma.bbbc0061.svg": "/Ecolueur/static/media/cartFigma.bbbc0061.svg",
+    "static/media/flower.f50ea155.svg": "/Ecolueur/static/media/flower.f50ea155.svg",
+    "static/media/lotus.e881a10f.png": "/Ecolueur/static/media/lotus.e881a10f.png",
+    "static/media/moins.2a367ea9.svg": "/Ecolueur/static/media/moins.2a367ea9.svg",
+    "static/media/scent.ced60e9b.svg": "/Ecolueur/static/media/scent.ced60e9b.svg",
+    "static/media/time.0437c9dd.svg": "/Ecolueur/static/media/time.0437c9dd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d038f69.js",
+    "static/js/2.e50f0b1a.chunk.js",
+    "static/css/main.f3358167.chunk.css",
+    "static/js/main.ccc3344b.chunk.js"
+  ]
+}
