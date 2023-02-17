@@ -23,7 +23,17 @@ function Container() {
     }, []);
 
     useEffect(() => {
-    if (windowWidth < 850) {
+    if (windowWidth < 768) {
+        setBlobVisibility(false);
+        setH3Color('#FFCE9A');
+        seth3Width('50%');
+        seth3Margin('25%');
+        setFlowerWidth('100%');
+        setFlowerOpacity('0.3');
+        setFlowerPadding('28vw 0');
+    }
+
+    else if (windowWidth < 850) {
         setBlobVisibility(false);
         setH3Color('#FFCE9A');
         seth3Width('50%');
