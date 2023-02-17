@@ -13,7 +13,7 @@ function Container() {
     const [h3Margin, seth3Margin] = useState('');
     const [flowerWidth, setFlowerWidth] = useState('35%');
     const [flowerOpacity, setFlowerOpacity] = useState('');
-
+    const [flowerPadding, setFlowerPadding] = useState('14vw 0');
 
 
     useEffect(() => {
@@ -23,13 +23,14 @@ function Container() {
     }, []);
 
     useEffect(() => {
-    if (windowWidth < 768) {
+    if (windowWidth < 850) {
         setBlobVisibility(false);
         setH3Color('#FFCE9A');
         seth3Width('50%');
         seth3Margin('25%');
         setFlowerWidth('100%');
         setFlowerOpacity('0.3');
+        setFlowerPadding('21vw 0');
     } else {
         setBlobVisibility(true);
         setH3Color('#A79B82');
@@ -37,13 +38,13 @@ function Container() {
         seth3Margin('');
         setFlowerWidth('35%');
         setFlowerOpacity('');
-
+        setFlowerPadding('14vw 0');
     }
     }, [windowWidth]);
 
 
     return (
-    <div className="lmj-container" style={{width: h3Width, marginLeft: h3Margin}}>
+    <div className="lmj-container" style={{padding: flowerPadding, width: h3Width, marginLeft: h3Margin}}>
         <h3 style={{ color: h3Color }}>Commandez pour profiter de la chaleur 
     et du confort de bougies naturelles et artisanales</h3>
         {blobVisibility && <img src={Blob} alt="blob" className='blob' />}
