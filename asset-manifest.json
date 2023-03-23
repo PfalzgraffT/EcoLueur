@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EcoLueur/static/css/main.54cfc999.chunk.css",
+    "main.css": "/EcoLueur/static/css/main.19d46b8b.chunk.css",
     "main.js": "/EcoLueur/static/js/main.26616ec0.chunk.js",
     "main.js.map": "/EcoLueur/static/js/main.26616ec0.chunk.js.map",
     "runtime-main.js": "/EcoLueur/static/js/runtime-main.af3e2510.js",
@@ -8,7 +8,7 @@
     "static/js/2.e50f0b1a.chunk.js": "/EcoLueur/static/js/2.e50f0b1a.chunk.js",
     "static/js/2.e50f0b1a.chunk.js.map": "/EcoLueur/static/js/2.e50f0b1a.chunk.js.map",
     "index.html": "/EcoLueur/index.html",
-    "static/css/main.54cfc999.chunk.css.map": "/EcoLueur/static/css/main.54cfc999.chunk.css.map",
+    "static/css/main.19d46b8b.chunk.css.map": "/EcoLueur/static/css/main.19d46b8b.chunk.css.map",
     "static/js/2.e50f0b1a.chunk.js.LICENSE.txt": "/EcoLueur/static/js/2.e50f0b1a.chunk.js.LICENSE.txt",
     "static/media/blob.eb4cac9c.svg": "/EcoLueur/static/media/blob.eb4cac9c.svg",
     "static/media/candleFive.b8140999.jpg": "/EcoLueur/static/media/candleFive.b8140999.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.af3e2510.js",
     "static/js/2.e50f0b1a.chunk.js",
-    "static/css/main.54cfc999.chunk.css",
+    "static/css/main.19d46b8b.chunk.css",
     "static/js/main.26616ec0.chunk.js"
   ]
 }
